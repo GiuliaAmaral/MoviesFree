@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.limitar-titulo {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000;
+}
